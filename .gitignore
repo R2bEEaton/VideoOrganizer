@@ -1,0 +1,39 @@
+# Secrets — never commit
+client_secret*.json
+token.json
+credentials.json
+*.pem
+
+# Library data (generated / personal)
+*.db
+*.db-wal
+*.db-shm
+.thumbs/
+organized/
+exports/
+drive_metadata.json
+videoorganizer.toml
+
+# Media
+*.mov
+*.MOV
+*.mp4
+*.MP4
+*.heic
+*.HEIC
+*.jpg
+*.jpeg
+*.png
+*.dng
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.coverage
